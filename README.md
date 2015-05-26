@@ -19,3 +19,4 @@ for more details.
 
 
 
+editing to my preferences, and to accomodate for new releases.

@@ -6,7 +6,11 @@
 # https://github.com/creationix/nvm
 sudo apt-get install -y git
 sudo apt-get install -y curl
-curl https://raw.githubusercontent.com/creationix/nvm/v0.11.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.25.3/install.sh | bash
+#was using this: 
+#curl https://raw.githubusercontent.com/creationix/nvm/v0.11.1/install.sh | bash
+# but I wasn't getting the nvm up and running without saying nvm use x.xx.xx again.
+#trying with the latest version above.
 
 # Load nvm and install latest production node
 source $HOME/.nvm/nvm.sh

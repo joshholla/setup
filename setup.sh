@@ -50,3 +50,6 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+# Installing js-beautify and tern for JS magic.
+npm -g install js-beautify
+npm -g install tern
